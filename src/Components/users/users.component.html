@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-md-5">
+        <up-user-list (userSelected)="selectedUser = $event"></up-user-list>
+    </div>
+    <div class="col-md-5">
+        <up-user-detail [selectedUser]="selectedUser"></up-user-detail>
+    </div>
+</div>
